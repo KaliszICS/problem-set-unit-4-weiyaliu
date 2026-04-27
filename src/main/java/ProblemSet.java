@@ -84,11 +84,12 @@ public class ProblemSet {
 
 		System.out.println("\nTotal Score: " + score);
 
-		if (score == 0) {
-			System.out.println("You got " + score + " out of " + rounds + " correct. Better luck next time.");
+		if (score >= rounds / 2.0 ) {
+			System.out.println("Congratulations you got " + score + " out of " + rounds + " right!");
 			
 		} else {
-			System.out.println("Congratulations you got " + score + " out of " + rounds + " right!");
+			System.out.println("You got " + score + " out of " + rounds + " correct. Better luck next time.");
+
 		}
 		
       input.close();
