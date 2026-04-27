@@ -22,7 +22,7 @@ public class ProblemSet {
 
 		System.out.println("Welcome to High and Low Guessing Game.");
 
-		System.out.println("Input number of rounds to play:");
+		System.out.print("Input number of rounds to play:");
 		rounds = input.nextInt();
 
       while (rounds<= 0) {
