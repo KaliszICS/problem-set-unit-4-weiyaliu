@@ -1,0 +1,11 @@
+K(30%): 95
+I(30%): 94
+C(10%): 100
+A(30%): 95
+95.2% of 90 - 85.68%
+
+Great work Weiya.
+
+Some small things. Don't forget to ensure the value is an integer before checking its values.
+Also You don't need to check if the random number is greater than 20 or less than 0 since that shouldn't be possible based on your random number selection.
+Otherwise great work!
